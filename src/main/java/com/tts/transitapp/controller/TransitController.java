@@ -3,6 +3,7 @@ package com.tts.transitapp.controller;
 import java.util.List;
 
 import com.tts.transitapp.model.Bus;
+import com.tts.transitapp.model.BusRequest;
 import com.tts.transitapp.service.TransitService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class TransitController {
+
+    public TransitController(){}
+    
     @Autowired
     private TransitService apiService;
 	

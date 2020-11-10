@@ -3,10 +3,22 @@ package com.tts.transitapp.model;
 import java.util.Comparator;
 
 public class BusComparator implements Comparator<Bus> {
+
+    public BusComparator() {
+    }
+    
+
     @Override
     public int compare(Bus o1, Bus o2) {
         if (o1.distance < o2.distance) return -1;
         if (o1.distance > o2.distance) return 1;
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "BusComparator []";
+    }
+
+    
 }

@@ -1,7 +1,5 @@
 package com.tts.transitapp.model;
 
-import javax.tools.DocumentationTool.Location;
-
 public class Geometry {
     public Location location;
 
@@ -20,6 +18,8 @@ public class Geometry {
     public String toString() {
         return "Geometry [location=" + location + "]";
     }
+
+    
 
     
 }
